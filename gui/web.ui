@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1515</width>
+    <height>672</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1441</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../../../Downloads/icon.qrc">:/phim-tet-2022-1-1644258923301219760067.webp</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>360</y>
+      <width>1441</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: qlineargradient(spread:pad, x1:1, y1:0.778, x2:1, y2:0, stop:0.0497512 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 0));
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1441</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 150);
+border-radius:10px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>211</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Downloads/5fffb30b3194c340097683.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>10</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+ border: 2px solid rgb(255, 255, 255);
+border-radius: 30;
+color:white;
+}
+QPushButton:checked{
+	color: white;
+	 border-radius: 30px;
+	  border: 1px rgb(255, 255, 255);
+		background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
+    }
+QPushButton:hover{
+		color: white;
+	 border-radius: 30px;
+	
+  border: 1px rgb(255, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
+	
+} 
+
+</string>
+    </property>
+    <property name="text">
+     <string>đăng ký </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1240</x>
+      <y>10</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+ border: 2px solid qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));;
+border-radius: 30;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
+}
+QPushButton:checked{
+	color: white;
+	 border-radius: 30px;
+	  border: 1px rgb(255, 255, 255);
+		background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
+    }
+QPushButton:hover{
+		color: white;
+	 border-radius: 30px;
+	
+  border: 1px rgb(255, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
+	
+} 
+
+</string>
+    </property>
+    <property name="text">
+     <string>đăng nhập</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mua_ve">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>10</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+ 
+	background-color: rgba(0, 0, 0,0);
+color:white;
+}
+QPushButton:checked{
+	
+		color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
+    }
+QPushButton:hover{
+
+	color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
+	
+} 
+
+</string>
+    </property>
+    <property name="text">
+     <string>mua vé</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../Downloads/pngtree-cinema-ticket-icon-in-flat-style-admit-one-coupon-entrance-vector-png-image_8961928.png</normaloff>../../../Downloads/pngtree-cinema-ticket-icon-in-flat-style-admit-one-coupon-entrance-vector-png-image_8961928.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>20</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>117</width>
+       <height>87</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="maximumSize">
+         <size>
+          <width>235</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{ 
+	background-color: rgba(0, 0, 0,0);
+color:white;
+	border-radius: 5px;
+}
+QPushButton:checked{
+    color: rgb(255, 170, 0); 
+	border-top: 1px  rgb(255, 255, 255);
+	border-bottom: 1px rgb(255, 255, 255);
+	border-left: 1px  rgb(255, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+	border-right: 5px solid rgb(255, 170, 0);
+    padding-left: 10px;
+    border-radius: 5px;
+    }
+QPushButton:hover{
+	color: rgb(255, 170, 0); 
+	border-top: 1px  rgb(255, 255, 255);
+	border-bottom: 1px rgb(255, 255, 255);
+	border-left: 1px  rgb(255, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+	border-right: 5px solid rgb(255, 170, 0);
+padding-left: 10px;
+border-radius: 5px;
+	
+} 
+
+
+</string>
+        </property>
+        <property name="text">
+         <string>khoang thường</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="maximumSize">
+         <size>
+          <width>234</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{ 
+	background-color: rgba(0, 0, 0,0);
+color:white;
+	border-radius: 5px;
+}
+QPushButton:checked{
+    color: rgb(255, 170, 0); 
+	border-top: 1px  rgb(255, 255, 255);
+	border-bottom: 1px rgb(255, 255, 255);
+	border-left: 1px  rgb(255, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+	border-right: 5px solid rgb(255, 170, 0);
+    padding-left: 10px;
+    border-radius: 5px;
+    }
+QPushButton:hover{
+	color: rgb(255, 170, 0); 
+	border-top: 1px  rgb(255, 255, 255);
+	border-bottom: 1px rgb(255, 255, 255);
+	border-left: 1px  rgb(255, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+	border-right: 5px solid rgb(255, 170, 0);
+padding-left: 10px;
+border-radius: 5px;
+	
+} 
+
+
+</string>
+        </property>
+        <property name="text">
+         <string>khoang vip</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="nbt">
+     <property name="geometry">
+      <rect>
+       <x>-30</x>
+       <y>-10</y>
+       <width>191</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Yu Gothic UI Semibold</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton{
+ 
+	background-color: rgba(0, 0, 0,0);
+color:white;
+}
+QPushButton:checked{
+	
+		color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
+    }
+QPushButton:hover{
+
+	color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
+	
+} 
+
+</string>
+     </property>
+     <property name="text">
+      <string>ghế ngồi </string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../Downloads/1123247-200.png</normaloff>
+       <normalon>../../../Downloads/UIF-77-512.webp</normalon>../../../Downloads/1123247-200.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="shortcut">
+      <string/>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_5">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>10</y>
+      <width>151</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0,0,0,0);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Yu Gothic UI Semibold</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton{
+ 
+	background-color: rgba(0, 0, 0,0);
+color:white;
+}
+QPushButton:checked{
+	
+		color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
+    }
+QPushButton:hover{
+
+	color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
+	
+} 
+
+</string>
+     </property>
+     <property name="text">
+      <string>lịch chiếu </string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../Downloads/1123247-200.png</normaloff>
+       <normalon>../../../Downloads/UIF-77-512.webp</normalon>../../../Downloads/1123247-200.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>117</width>
+       <height>87</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="maximumSize">
+         <size>
+          <width>234</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{ 
+	background-color: rgba(0, 0, 0,0);
+color:white;
+	border-radius: 5px;
+}
+QPushButton:checked{
+    color: rgb(255, 170, 0); 
+	border-top: 1px  rgb(255, 255, 255);
+	border-bottom: 1px rgb(255, 255, 255);
+	border-left: 1px  rgb(255, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+	border-right: 5px solid rgb(255, 170, 0);
+    padding-left: 10px;
+    border-radius: 5px;
+    }
+QPushButton:hover{
+	color: rgb(255, 170, 0); 
+	border-top: 1px  rgb(255, 255, 255);
+	border-bottom: 1px rgb(255, 255, 255);
+	border-left: 1px  rgb(255, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+	border-right: 5px solid rgb(255, 170, 0);
+padding-left: 10px;
+border-radius: 5px;
+	
+} 
+
+
+
+</string>
+        </property>
+        <property name="text">
+         <string>sự kiện</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="maximumSize">
+         <size>
+          <width>234</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{ 
+	background-color: rgba(0, 0, 0,0);
+color:white;
+	border-radius: 5px;
+}
+QPushButton:checked{
+    color: rgb(255, 170, 0); 
+	border-top: 1px  rgb(255, 255, 255);
+	border-bottom: 1px rgb(255, 255, 255);
+	border-left: 1px  rgb(255, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+	border-right: 5px solid rgb(255, 170, 0);
+    padding-left: 10px;
+    border-radius: 5px;
+    }
+QPushButton:hover{
+	color: rgb(255, 170, 0); 
+	border-top: 1px  rgb(255, 255, 255);
+	border-bottom: 1px rgb(255, 255, 255);
+	border-left: 1px  rgb(255, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+	border-right: 5px solid rgb(255, 170, 0);
+padding-left: 10px;
+border-radius: 5px;
+	
+} 
+</string>
+        </property>
+        <property name="text">
+         <string>lịch trình</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>110</y>
+      <width>361</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Downloads/5fffb30b3194c340097683.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>360</y>
+      <width>551</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Zilla Slab SemiBold</family>
+      <pointsize>40</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>The lens shows 
+   every second </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>450</y>
+      <width>481</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>.VnMonotype corsivaH</family>
+      <pointsize>20</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string> the dramatic 
+ suspense of every minute</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>890</y>
+      <width>120</width>
+      <height>80</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>890</y>
+      <width>1441</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>770</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1515</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../../../../Downloads/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>nbt</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>frame</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>700</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>740</x>
+     <y>172</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>frame_3</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>900</x>
+     <y>86</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>910</x>
+     <y>131</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
