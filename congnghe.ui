@@ -17,22 +17,12 @@
    <widget class="QWidget" name="widget" native="true">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
+      <x>10</x>
+      <y>-50</y>
       <width>1301</width>
       <height>891</height>
      </rect>
     </property>
-    <widget class="QDateEdit" name="dateEdit">
-     <property name="geometry">
-      <rect>
-       <x>320</x>
-       <y>220</y>
-       <width>110</width>
-       <height>22</height>
-      </rect>
-     </property>
-    </widget>
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
@@ -56,7 +46,7 @@
         </property>
         <property name="styleSheet">
          <string notr="true">background-color:rgba(28, 28, 28, 1);
-border-radius: 10px;</string>
+border-radius: 25px;</string>
         </property>
         <widget class="QLabel" name="label">
          <property name="geometry">
@@ -117,7 +107,8 @@ border-radius: 10px;</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(84, 84, 125);</string>
+          <string notr="true">
+color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>Trang Chủ </string>
@@ -141,7 +132,7 @@ border-radius: 10px;</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(84, 84, 125);</string>
+          <string notr="true">color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>Giới Thiệu</string>
@@ -150,7 +141,7 @@ border-radius: 10px;</string>
         <widget class="QPushButton" name="pushButton_3">
          <property name="geometry">
           <rect>
-           <x>520</x>
+           <x>510</x>
            <y>20</y>
            <width>91</width>
            <height>31</height>
@@ -165,7 +156,7 @@ border-radius: 10px;</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(84, 84, 125);</string>
+          <string notr="true">color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>Cửa Hàng</string>
@@ -174,7 +165,7 @@ border-radius: 10px;</string>
         <widget class="QPushButton" name="pushButton_4">
          <property name="geometry">
           <rect>
-           <x>610</x>
+           <x>600</x>
            <y>20</y>
            <width>71</width>
            <height>31</height>
@@ -189,7 +180,7 @@ border-radius: 10px;</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(84, 84, 125);</string>
+          <string notr="true">color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>liên Hệ</string>
@@ -207,12 +198,12 @@ border-radius: 10px;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color:rgba(52, 55, 74, 1);
-border-radius: 10px;</string>
+border-radius: 25px;</string>
         </property>
-        <widget class="QPushButton" name="pushButton_5">
+        <widget class="QPushButton" name="pushButton_8">
          <property name="geometry">
           <rect>
-           <x>30</x>
+           <x>270</x>
            <y>20</y>
            <width>211</width>
            <height>51</height>
@@ -230,68 +221,200 @@ border-radius: 10px;</string>
           <string notr="true">color:rgb(255, 255, 255);</string>
          </property>
          <property name="text">
-          <string>danh mục sản phẩm</string>
+          <string>tất cả sản phẩm</string>
          </property>
          <property name="icon">
           <iconset resource="../../../Downloads/les.qrc">
-           <normaloff>:/newPrefix/table (1).png</normaloff>:/newPrefix/table (1).png</iconset>
+           <normaloff>:/newPrefix/sort-arrows-couple-pointing-up-and-down.png</normaloff>:/newPrefix/sort-arrows-couple-pointing-up-and-down.png</iconset>
          </property>
          <property name="iconSize">
           <size>
-           <width>35</width>
-           <height>40</height>
+           <width>15</width>
+           <height>20</height>
           </size>
          </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
         </widget>
-        <widget class="QLineEdit" name="lineEdit">
+        <widget class="QWidget" name="widget_3" native="true">
          <property name="geometry">
           <rect>
-           <x>380</x>
+           <x>-10</x>
+           <y>0</y>
+           <width>271</width>
+           <height>241</height>
+          </rect>
+         </property>
+         <widget class="QPushButton" name="pushButton_5">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>20</y>
+            <width>211</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>51</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bahnschrift SemiLight Condensed</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:rgb(255, 255, 255);
+background-color:rgba(52, 55, 74, 1);</string>
+          </property>
+          <property name="text">
+           <string>danh mục sản phẩm</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../../Downloads/les.qrc">
+            <normaloff>:/newPrefix/table (1).png</normaloff>:/newPrefix/table (1).png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>35</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_7">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>100</y>
+            <width>161</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>51</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bahnschrift SemiLight Condensed</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:rgb(255, 255, 255);
+background-color:rgba(52, 55, 74, 1);</string>
+          </property>
+          <property name="text">
+           <string> máy flycam</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>35</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_9">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>170</y>
+            <width>161</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>51</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bahnschrift SemiLight Condensed</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:rgb(255, 255, 255);
+background-color:rgba(52, 55, 74, 1);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>35</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter">
+         <property name="geometry">
+          <rect>
+           <x>490</x>
            <y>20</y>
            <width>641</width>
-           <height>51</height>
+           <height>56</height>
           </rect>
          </property>
-         <property name="styleSheet">
-          <string notr="true">background-color:rgba(80, 80, 99, 1);
-border-radius:23px;</string>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
          </property>
-        </widget>
-        <widget class="QPushButton" name="pushButton_6">
-         <property name="geometry">
-          <rect>
-           <x>1030</x>
-           <y>20</y>
-           <width>91</width>
-           <height>51</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-         <property name="icon">
-          <iconset resource="../../../Downloads/les.qrc">
-           <normaloff>:/newPrefix/search (2).png</normaloff>:/newPrefix/search (2).png</iconset>
-         </property>
-         <property name="iconSize">
-          <size>
-           <width>46</width>
-           <height>45</height>
-          </size>
-         </property>
-        </widget>
-        <widget class="QPushButton" name="pushButton_7">
-         <property name="geometry">
-          <rect>
-           <x>310</x>
-           <y>40</y>
-           <width>93</width>
-           <height>28</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>PushButton</string>
-         </property>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="font">
+           <font>
+            <family>Barlow Condensed Medium</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgba(80, 80, 99, 1);
+border-radius:23px;
+padding-left: 30px;
+color: rgb(32, 32, 48);</string>
+          </property>
+          <property name="placeholderText">
+           <string>Nhập sản phẩm cần tìm .........</string>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>56</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="../../../Downloads/les.qrc">
+            <normaloff>:/newPrefix/search (2).png</normaloff>:/newPrefix/search (2).png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>46</width>
+            <height>45</height>
+           </size>
+          </property>
+         </widget>
         </widget>
        </widget>
       </item>
