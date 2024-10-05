@@ -27,7 +27,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../../../../Downloads/icon.qrc">:/phim-tet-2022-1-1644258923301219760067.webp</pixmap>
+     <pixmap>:/phim-tet-2022-1-1644258923301219760067.webp</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -733,6 +733,7 @@ border-radius: 5px;
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
+  <include location="../../../../Downloads/les.qrc"/>
   <include location="../../../../Downloads/icon.qrc"/>
  </resources>
  <connections>
