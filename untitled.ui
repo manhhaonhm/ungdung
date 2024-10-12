@@ -23,34 +23,17 @@
       <height>641</height>
      </rect>
     </property>
-    <widget class="QLabel" name="label">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>20</y>
-       <width>451</width>
-       <height>611</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">border-image: url(:/newPrefix/hinh-nen-con-vat-cute-9-1.jpg);
-border-radius: 23px;</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_2">
      <property name="geometry">
       <rect>
-       <x>30</x>
-       <y>20</y>
+       <x>20</x>
+       <y>10</y>
        <width>451</width>
        <height>611</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.109453 rgba(81, 74, 111, 255), stop:0.114428 rgba(81, 74, 111, 255), stop:1 rgba(15, 59, 255, 0));
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.818, x2:0, y2:0.409, stop:0 rgba(22, 0, 23, 255), stop:0.59204 rgba(204, 0, 255, 0));
 border-radius: 23px;</string>
      </property>
      <property name="text">
@@ -60,8 +43,8 @@ border-radius: 23px;</string>
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>60</x>
-       <y>70</y>
+       <x>50</x>
+       <y>50</y>
        <width>401</width>
        <height>561</height>
       </rect>
@@ -84,6 +67,27 @@ border-radius:23px;</string>
       </rect>
      </property>
     </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>451</width>
+       <height>611</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 23px;
+border-image: url(:/newPrefix/29797f9bfd2a0e2391801ed9397b8ac8.jpg);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>label_4</zorder>
+    <zorder>label_2</zorder>
+    <zorder>label_3</zorder>
+    <zorder>lineEdit</zorder>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
