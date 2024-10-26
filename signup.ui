@@ -45,7 +45,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>../../../Downloads/goc-lam-viec-bat-ky-goc-nao.jpg</pixmap>
+      <pixmap>image/goc-lam-viec-bat-ky-goc-nao.jpg</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -54,9 +54,9 @@
     <widget class="QLabel" name="label_2">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>20</x>
        <y>30</y>
-       <width>1471</width>
+       <width>1481</width>
        <height>841</height>
       </rect>
      </property>
@@ -84,7 +84,7 @@ background-color:rgba(0, 0, 0, 0.71);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>../../../Downloads/goc-lam-viec-bat-ky-goc-nao.jpg</pixmap>
+      <pixmap>image/goc-lam-viec-bat-ky-goc-nao.jpg</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
