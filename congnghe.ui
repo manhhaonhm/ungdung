@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1893</width>
-    <height>1329</height>
+    <height>1299</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -89,7 +89,7 @@ border-radius: 10px;
        </property>
        <layout class="QVBoxLayout" name="verticalLayout">
         <property name="spacing">
-         <number>0</number>
+         <number>5</number>
         </property>
         <item>
          <widget class="QPushButton" name="pushButton_7">
@@ -146,7 +146,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../../../Downloads/gaming.png</normaloff>../../../Downloads/gaming.png</iconset>
+            <normaloff>image/gaming.png</normaloff>image/gaming.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -211,7 +211,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../../../Downloads/camera.png</normaloff>../../../Downloads/camera.png</iconset>
+            <normaloff>image/camera.png</normaloff>image/camera.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -276,7 +276,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../../../Downloads/mobile-app.png</normaloff>../../../Downloads/mobile-app.png</iconset>
+            <normaloff>image/mobile-app.png</normaloff>image/mobile-app.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -341,7 +341,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../../../Downloads/ux.png</normaloff>../../../Downloads/ux.png</iconset>
+            <normaloff>image/ux.png</normaloff>image/ux.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -406,7 +406,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../../../Downloads/smart-tv.png</normaloff>../../../Downloads/smart-tv.png</iconset>
+            <normaloff>image/smart-tv.png</normaloff>image/smart-tv.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -472,7 +472,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../../../Downloads/smart-home.png</normaloff>../../../Downloads/smart-home.png</iconset>
+            <normaloff>image/smart-home.png</normaloff>image/smart-home.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -537,7 +537,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../../../Downloads/smart-watch.png</normaloff>../../../Downloads/smart-watch.png</iconset>
+            <normaloff>image/smart-watch.png</normaloff>image/smart-watch.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -603,7 +603,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../../../Downloads/earphone.png</normaloff>../../../Downloads/earphone.png</iconset>
+            <normaloff>image/earphone.png</normaloff>image/earphone.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -668,7 +668,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../../../Downloads/infrastructure.png</normaloff>../../../Downloads/infrastructure.png</iconset>
+            <normaloff>image/infrastructure.png</normaloff>image/infrastructure.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -785,7 +785,7 @@ border-radius:30px;</string>
         <enum>QFrame::Raised</enum>
        </property>
       </widget>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -810,10 +810,10 @@ border-radius:20px;</string>
           <widget class="QPushButton" name="pushButton_9">
            <property name="geometry">
             <rect>
-             <x>40</x>
-             <y>90</y>
-             <width>191</width>
-             <height>71</height>
+             <x>70</x>
+             <y>110</y>
+             <width>141</width>
+             <height>51</height>
             </rect>
            </property>
            <property name="styleSheet">
@@ -851,6 +851,19 @@ color: rgb(0,0,0);
            </property>
            <property name="text">
             <string>PushButton</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_3">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>50</y>
+             <width>91</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
            </property>
           </widget>
          </widget>
@@ -929,7 +942,7 @@ border-radius:20px;</string>
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -960,7 +973,7 @@ border-radius: 10px;</string>
             <x>0</x>
             <y>0</y>
             <width>91</width>
-            <height>61</height>
+            <height>71</height>
            </rect>
           </property>
           <property name="styleSheet">
@@ -970,7 +983,7 @@ border-radius: 10px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>../../../Downloads/Remove-bg.ai_1726289807793.png</pixmap>
+           <pixmap>image/Remove-bg.ai_1726289807793.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -989,7 +1002,7 @@ border-radius: 10px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>../../../Downloads/Remove-bg.ai_1726317160953.png</pixmap>
+           <pixmap>image/Remove-bg.ai_1726317160953.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -1138,7 +1151,7 @@ background-color:rgba(52, 55, 74, 1);</string>
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>:/newPrefix/table (1).png</normaloff>:/newPrefix/table (1).png</iconset>
+            <normaloff>image/table (1).png</normaloff>image/table (1).png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -1191,7 +1204,7 @@ background-color:rgba(52, 55, 74, 1);</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>:/newPrefix/sort-arrows-couple-pointing-up-and-down.png</normaloff>:/newPrefix/sort-arrows-couple-pointing-up-and-down.png</iconset>
+              <normaloff>image/sort-arrows-couple-pointing-up-and-down.png</normaloff>image/sort-arrows-couple-pointing-up-and-down.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -1278,7 +1291,7 @@ color: rgb(32, 32, 48);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -1289,7 +1302,7 @@ color: rgb(32, 32, 48);</string>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_4"/>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -1300,7 +1313,7 @@ color: rgb(32, 32, 48);</string>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_6"/>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>0</x>

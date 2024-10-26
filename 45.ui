@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1669</width>
-    <height>1017</height>
+    <width>1916</width>
+    <height>1389</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,10 +17,10 @@
    <widget class="QWidget" name="widget" native="true">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>50</x>
       <y>10</y>
-      <width>1661</width>
-      <height>911</height>
+      <width>1851</width>
+      <height>1221</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -29,47 +29,27 @@
     <widget class="QLabel" name="label_2">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>10</y>
-       <width>1641</width>
-       <height>891</height>
+       <x>40</x>
+       <y>50</y>
+       <width>1721</width>
+       <height>1071</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-image: url(:/newPrefix/chup-anh-cac-san-pham-cong-nghe-07-1024x576.png);
+      <string notr="true">border-image: url(:/newPrefix/goc-lam-viec-bat-ky-goc-nao.jpg);
 border-radius: 15px;</string>
      </property>
      <property name="text">
       <string/>
      </property>
     </widget>
-    <widget class="QFrame" name="frame">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>30</y>
-       <width>1661</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color:rgba(255, 255, 255, 255);
-border-radius: 21px;</string>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
-     </property>
-    </widget>
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>0</x>
-       <y>430</y>
-       <width>841</width>
-       <height>531</height>
+       <x>120</x>
+       <y>280</y>
+       <width>731</width>
+       <height>641</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -82,24 +62,40 @@ border-radius: 21px;</string>
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>30</x>
-       <y>540</y>
-       <width>1641</width>
-       <height>861</height>
+       <x>40</x>
+       <y>50</y>
+       <width>1721</width>
+       <height>1071</height>
       </rect>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgba(0,0,0,100);
-border-radius: 15px;</string>
+border-radius:15px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>850</x>
+       <y>280</y>
+       <width>745</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0, 0, 0, 1);</string>
      </property>
      <property name="text">
       <string/>
      </property>
     </widget>
     <zorder>label_2</zorder>
-    <zorder>label</zorder>
     <zorder>label_3</zorder>
-    <zorder>frame</zorder>
+    <zorder>label</zorder>
+    <zorder>label_4</zorder>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -107,7 +103,7 @@ border-radius: 15px;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1669</width>
+     <width>1916</width>
      <height>26</height>
     </rect>
    </property>
@@ -115,6 +111,7 @@ border-radius: 15px;</string>
  </widget>
  <resources>
   <include location="../../../Downloads/les.qrc"/>
+  <include location="../../../Downloads/grssa.qrc"/>
  </resources>
  <connections/>
 </ui>
