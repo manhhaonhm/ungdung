@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1893</width>
-    <height>1465</height>
+    <height>1329</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>100</x>
       <y>10</y>
       <width>1611</width>
-      <height>1401</height>
+      <height>1291</height>
      </rect>
     </property>
     <widget class="QWidget" name="widget_3" native="true">
@@ -29,16 +29,16 @@
        <x>-20</x>
        <y>190</y>
        <width>1591</width>
-       <height>1161</height>
+       <height>1051</height>
       </rect>
      </property>
      <widget class="QWidget" name="widget_5" native="true">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>0</y>
+        <x>30</x>
+        <y>10</y>
         <width>1581</width>
-        <height>1121</height>
+        <height>1111</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -89,7 +89,7 @@ border-radius: 10px;
        </property>
        <layout class="QVBoxLayout" name="verticalLayout">
         <property name="spacing">
-         <number>5</number>
+         <number>0</number>
         </property>
         <item>
          <widget class="QPushButton" name="pushButton_7">
@@ -146,7 +146,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>image/gaming.png</normaloff>image/gaming.png</iconset>
+            <normaloff>../../../Downloads/gaming.png</normaloff>../../../Downloads/gaming.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -211,7 +211,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>image/camera.png</normaloff>image/camera.png</iconset>
+            <normaloff>../../../Downloads/camera.png</normaloff>../../../Downloads/camera.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -276,7 +276,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>image/mobile-app.png</normaloff>image/mobile-app.png</iconset>
+            <normaloff>../../../Downloads/mobile-app.png</normaloff>../../../Downloads/mobile-app.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -341,7 +341,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>image/ux.png</normaloff>image/ux.png</iconset>
+            <normaloff>../../../Downloads/ux.png</normaloff>../../../Downloads/ux.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -406,7 +406,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>image/smart-tv.png</normaloff>image/smart-tv.png</iconset>
+            <normaloff>../../../Downloads/smart-tv.png</normaloff>../../../Downloads/smart-tv.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -472,7 +472,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>image/smart-home.png</normaloff>image/smart-home.png</iconset>
+            <normaloff>../../../Downloads/smart-home.png</normaloff>../../../Downloads/smart-home.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -537,7 +537,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>image/smart-watch.png</normaloff>image/smart-watch.png</iconset>
+            <normaloff>../../../Downloads/smart-watch.png</normaloff>../../../Downloads/smart-watch.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -603,7 +603,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>image/earphone.png</normaloff>image/earphone.png</iconset>
+            <normaloff>../../../Downloads/earphone.png</normaloff>../../../Downloads/earphone.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -668,7 +668,7 @@ color: rgb(0,0,0);
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>image/infrastructure.png</normaloff>image/infrastructure.png</iconset>
+            <normaloff>../../../Downloads/infrastructure.png</normaloff>../../../Downloads/infrastructure.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -748,7 +748,7 @@ color: rgb(0,0,0);
       <widget class="QFrame" name="frame_17">
        <property name="geometry">
         <rect>
-         <x>340</x>
+         <x>330</x>
          <y>20</y>
          <width>721</width>
          <height>421</height>
@@ -785,7 +785,7 @@ border-radius:30px;</string>
         <enum>QFrame::Raised</enum>
        </property>
       </widget>
-      <widget class="QWidget" name="layoutWidget">
+      <widget class="QWidget" name="">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -807,97 +807,50 @@ border-radius:20px;</string>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
-          <widget class="QLabel" name="label_3">
+          <widget class="QPushButton" name="pushButton_9">
            <property name="geometry">
             <rect>
-             <x>70</x>
-             <y>50</y>
-             <width>261</width>
-             <height>51</height>
+             <x>40</x>
+             <y>90</y>
+             <width>191</width>
+             <height>71</height>
             </rect>
            </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-             <pointsize>20</pointsize>
-             <weight>75</weight>
-             <bold>true</bold>
-            </font>
-           </property>
            <property name="styleSheet">
-            <string notr="true">color: rgb(255, 255, 255);</string>
-           </property>
-           <property name="text">
-            <string>sản phẩm mới</string>
-           </property>
-          </widget>
-          <widget class="QPushButton" name="pushButton_10">
-           <property name="geometry">
-            <rect>
-             <x>90</x>
-             <y>110</y>
-             <width>181</width>
-             <height>61</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-             <pointsize>10</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">QPushButton{
- border: 2px solid rgb(255, 255, 255);
-border-radius: 30;
-color:white;
+            <string notr="true">QPushButton{ 
+background-color: rgba(0,0, 0, 0);
+border:2px solid rgba(0,0, 0, 0);
+border-bottom-color: rgba(212, 212, 212, 1);
+color: rgb(0,0,0);
+padding-bottom: 2px;
 }
 QPushButton:checked{
-	color: white;
-	 border-radius: 30px;
-	  border: 1px rgb(255, 255, 255);
-		background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
+    color: rgb(255, 170, 0); 
+	border-top: 1px  rgb(255, 255, 255);
+	border-bottom: 1px rgb(255, 255, 255);
+	border-left: 1px  rgb(255, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+	border-right: 5px solid rgb(255, 170, 0);
+    padding-left: 10px;
+    border-radius: 5px;
     }
 QPushButton:hover{
-		color: white;
-	 border-radius: 30px;
-	
-  border: 1px rgb(255, 255, 255);
-	
-	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0 rgba(0, 176, 193, 255), stop:1 rgba(0, 190, 218, 255));
-	
-} 
 
+padding-bottom: 2px;
+	border-top: 1px  rgb(255, 255, 255);
+    border-bottom: 2px solid rgba(6, 56, 48, 0.86);
+	border-right: 1px  rgb(255, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0.114428 rgba(187, 249, 255, 255), stop:1 rgba(15, 59, 255, 0));
+	border-left: 5px solid rgba(49, 244, 215, 0.8);
+border-radius:4px;
+padding-left: 18px;
+
+color: rgb(0,0,0);
+} 
 </string>
            </property>
            <property name="text">
-            <string>mua ngay</string>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_5">
-           <property name="geometry">
-            <rect>
-             <x>130</x>
-             <y>10</y>
-             <width>111</width>
-             <height>51</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-             <pointsize>20</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color: rgb(255, 255, 255);</string>
-           </property>
-           <property name="text">
-            <string>apple</string>
+            <string>PushButton</string>
            </property>
           </widget>
          </widget>
@@ -914,101 +867,6 @@ border-radius:20px;</string>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
-          <widget class="QPushButton" name="pushButton_11">
-           <property name="geometry">
-            <rect>
-             <x>100</x>
-             <y>110</y>
-             <width>181</width>
-             <height>61</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-             <pointsize>10</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">QPushButton{
- border: 2px solid rgb(255, 255, 255);
-border-radius: 30;
-color:white;
-}
-QPushButton:checked{
-	color: white;
-	 border-radius: 30px;
-	  border: 1px rgb(255, 255, 255);
-		background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
-    }
-QPushButton:hover{
-		color: white;
-	 border-radius: 30px;
-	
-  border: 1px rgb(255, 255, 255);
-	
-	
-	
-	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0 rgba(93, 93, 93, 255), stop:1 rgba(60, 60, 60, 255));
-	
-} 
-
-</string>
-           </property>
-           <property name="text">
-            <string>mua ngay</string>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_4">
-           <property name="geometry">
-            <rect>
-             <x>180</x>
-             <y>60</y>
-             <width>131</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-             <pointsize>20</pointsize>
-             <weight>75</weight>
-             <bold>true</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color: rgb(255, 255, 255);</string>
-           </property>
-           <property name="text">
-            <string>flyscam</string>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_6">
-           <property name="geometry">
-            <rect>
-             <x>90</x>
-             <y>20</y>
-             <width>131</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-             <pointsize>20</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color: rgb(255, 255, 255);</string>
-           </property>
-           <property name="text">
-            <string>drone</string>
-           </property>
-          </widget>
          </widget>
         </item>
         <item>
@@ -1023,102 +881,6 @@ border-radius:20px;</string>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
-          <widget class="QPushButton" name="pushButton_34">
-           <property name="geometry">
-            <rect>
-             <x>90</x>
-             <y>110</y>
-             <width>181</width>
-             <height>61</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-             <pointsize>10</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">QPushButton{
- border: 2px solid rgb(255, 255, 255);
-border-radius: 30;
-color:white;
-}
-QPushButton:checked{
-	color: white;
-	 border-radius: 30px;
-	  border: 1px rgb(255, 255, 255);
-		background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
-    }
-QPushButton:hover{
-		color: white;
-	 border-radius: 30px;
-	
-  border: 1px rgb(255, 255, 255);
-	
-	
-	
-	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0 rgba(255, 139, 0, 255), stop:1 rgba(252, 255, 46, 255));
-} 
-
-</string>
-           </property>
-           <property name="text">
-            <string>mua ngay</string>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_11">
-           <property name="geometry">
-            <rect>
-             <x>70</x>
-             <y>20</y>
-             <width>171</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-             <pointsize>20</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color: rgb(255, 255, 255);
-background-color:none;</string>
-           </property>
-           <property name="text">
-            <string>dọn dẹp</string>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_12">
-           <property name="geometry">
-            <rect>
-             <x>60</x>
-             <y>60</y>
-             <width>241</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-             <pointsize>20</pointsize>
-             <weight>75</weight>
-             <bold>true</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color: rgb(255, 255, 255);
-background-color:none;</string>
-           </property>
-           <property name="text">
-            <string>nhà của bạn</string>
-           </property>
-          </widget>
          </widget>
         </item>
         <item>
@@ -1133,163 +895,9 @@ border-radius:20px;</string>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
-          <widget class="QPushButton" name="pushButton_35">
-           <property name="geometry">
-            <rect>
-             <x>90</x>
-             <y>110</y>
-             <width>181</width>
-             <height>61</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-             <pointsize>10</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">QPushButton{
- border: 2px solid rgb(255, 255, 255);
-border-radius: 30;
-color:white;
-}
-QPushButton:checked{
-	color: white;
-	 border-radius: 30px;
-	  border: 1px rgb(255, 255, 255);
-		background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
-    }
-QPushButton:hover{
-		color: white;
-	 border-radius: 30px;
-	
-  border: 1px rgb(255, 255, 255);
-	
-	
-	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(173, 0, 190, 255), stop:1 rgba(245, 14, 224, 255));
-} 
-
-</string>
-           </property>
-           <property name="text">
-            <string>mua ngay</string>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_14">
-           <property name="geometry">
-            <rect>
-             <x>90</x>
-             <y>60</y>
-             <width>241</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-             <pointsize>20</pointsize>
-             <weight>75</weight>
-             <bold>true</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color: rgb(255, 255, 255);
-background-color:none;</string>
-           </property>
-           <property name="text">
-            <string>xay tự động</string>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_13">
-           <property name="geometry">
-            <rect>
-             <x>130</x>
-             <y>30</y>
-             <width>141</width>
-             <height>31</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-             <pointsize>20</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color: rgb(255, 255, 255);
-background-color:none;</string>
-           </property>
-           <property name="text">
-            <string>cà phê </string>
-           </property>
-          </widget>
          </widget>
         </item>
        </layout>
-      </widget>
-      <widget class="QPushButton" name="pushButton_36">
-       <property name="geometry">
-        <rect>
-         <x>30</x>
-         <y>790</y>
-         <width>221</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Century Gothic</family>
-         <pointsize>10</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-QPushButton{ 
-background-color: rgba(0,0, 0, 0);
-border-radius: none;
-border:5px solid rgba(0,0, 0, 0);
-border-bottom-color:rgba(28, 218, 220, 0.8);
-color: rgb(0,0,0);
-padding-bottom: 2px;
-}
-QPushButton:checked{
-    color: rgb(255, 170, 0); 
-	border-top: 1px  rgb(255, 255, 255);
-	border-bottom: 1px rgb(255, 255, 255);
-	border-left: 1px  rgb(255, 255, 255);
-
-	border-right: 5px solid rgb(255, 170, 0);
-
-    border-radius: 5px;
-
-    }
-QPushButton:hover{
-
-padding-bottom: 2px;
-	border-top: 1px  rgb(255, 255, 255);
-    border-bottom:5px solid rgba(28, 218, 220, 0.8);
-	border-right: 1px  rgb(255, 255, 255);
-	
-	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0 rgba(0, 176, 193, 35), stop:1 rgba(0, 190, 218, 32));
-	border-left: 1px solid rgba(255, 255, 255, 0);
-border-radius:4px;
-padding-left: 18px;
-
-color: rgb(0,0,0);
-} 
-
-</string>
-       </property>
-       <property name="text">
-        <string>phổ biến nhất</string>
-       </property>
       </widget>
      </widget>
     </widget>
@@ -1321,11 +929,11 @@ color: rgb(0,0,0);
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
-     <widget class="QWidget" name="layoutWidget">
+     <widget class="QWidget" name="">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
+        <y>10</y>
         <width>1591</width>
         <height>171</height>
        </rect>
@@ -1352,7 +960,7 @@ border-radius: 10px;</string>
             <x>0</x>
             <y>0</y>
             <width>91</width>
-            <height>71</height>
+            <height>61</height>
            </rect>
           </property>
           <property name="styleSheet">
@@ -1362,7 +970,26 @@ border-radius: 10px;</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>image/Remove-bg.ai_1726289748095.png</pixmap>
+           <pixmap>../../../Downloads/Remove-bg.ai_1726289807793.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>-70</y>
+            <width>201</width>
+            <height>191</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>../../../Downloads/Remove-bg.ai_1726317160953.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -1465,25 +1092,6 @@ color: rgb(255, 255, 255);</string>
            <string>liên Hệ</string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_2">
-          <property name="geometry">
-           <rect>
-            <x>90</x>
-            <y>0</y>
-            <width>211</width>
-            <height>141</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-          <property name="pixmap">
-           <pixmap>image/Remove-bg.ai_1726317160953.png</pixmap>
-          </property>
-          <property name="scaledContents">
-           <bool>true</bool>
-          </property>
-         </widget>
         </widget>
        </item>
        <item>
@@ -1530,7 +1138,7 @@ background-color:rgba(52, 55, 74, 1);</string>
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>image/table (1).png</normaloff>image/table (1).png</iconset>
+            <normaloff>:/newPrefix/table (1).png</normaloff>:/newPrefix/table (1).png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -1583,7 +1191,7 @@ background-color:rgba(52, 55, 74, 1);</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>image/sort-arrows-couple-pointing-up-and-down.png</normaloff>image/sort-arrows-couple-pointing-up-and-down.png</iconset>
+              <normaloff>:/newPrefix/sort-arrows-couple-pointing-up-and-down.png</normaloff>:/newPrefix/sort-arrows-couple-pointing-up-and-down.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -1628,7 +1236,7 @@ color: rgb(32, 32, 48);</string>
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>image/wall-clock.png</normaloff>image/wall-clock.png</iconset>
+             <normaloff>:/newPrefix/search (2).png</normaloff>:/newPrefix/search (2).png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -1670,7 +1278,7 @@ color: rgb(32, 32, 48);</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="QWidget" name="layoutWidget">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -1681,7 +1289,7 @@ color: rgb(32, 32, 48);</string>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_4"/>
    </widget>
-   <widget class="QWidget" name="layoutWidget">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -1692,7 +1300,7 @@ color: rgb(32, 32, 48);</string>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_6"/>
    </widget>
-   <widget class="QWidget" name="layoutWidget">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
       <x>0</x>
