@@ -18,9 +18,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>10</y>
+      <y>0</y>
       <width>1131</width>
-      <height>961</height>
+      <height>981</height>
      </rect>
     </property>
     <property name="widgetResizable">
@@ -32,7 +32,7 @@
        <x>0</x>
        <y>0</y>
        <width>1129</width>
-       <height>959</height>
+       <height>979</height>
       </rect>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout">
@@ -46,6 +46,12 @@
       </item>
       <item>
        <widget class="QScrollArea" name="scrollArea_2">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>200</height>
+         </size>
+        </property>
         <property name="styleSheet">
          <string notr="true">background-color: rgb(220, 220, 220);</string>
         </property>
@@ -58,339 +64,162 @@
            <x>0</x>
            <y>0</y>
            <width>1105</width>
-           <height>896</height>
+           <height>198</height>
           </rect>
          </property>
-         <widget class="QLabel" name="label_2">
-          <property name="geometry">
-           <rect>
-            <x>30</x>
-            <y>40</y>
-            <width>71</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>TextLabel</string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_3">
-          <property name="geometry">
-           <rect>
-            <x>150</x>
-            <y>120</y>
-            <width>271</width>
-            <height>311</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-         </widget>
-         <widget class="QFrame" name="frame">
-          <property name="geometry">
-           <rect>
-            <x>90</x>
-            <y>120</y>
-            <width>291</width>
-            <height>411</height>
-           </rect>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_2">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QFrame" name="frame">
+             <property name="geometry">
+              <rect>
+               <x>200</x>
+               <y>30</y>
+               <width>251</width>
+               <height>351</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>251</width>
+               <height>351</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>251</width>
+               <height>351</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
 border-radius:15px;</string>
-          </property>
-          <property name="frameShape">
-           <enum>QFrame::StyledPanel</enum>
-          </property>
-          <property name="frameShadow">
-           <enum>QFrame::Raised</enum>
-          </property>
-          <widget class="QLabel" name="label_4">
-           <property name="geometry">
-            <rect>
-             <x>50</x>
-             <y>40</y>
-             <width>191</width>
-             <height>201</height>
-            </rect>
-           </property>
-           <property name="text">
-            <string/>
-           </property>
-           <property name="pixmap">
-            <pixmap>image/iphone_16_pro_max_natural_-_1_copy_c85417198ff249b0852a93d7bc660695_medium (1).webp</pixmap>
-           </property>
-           <property name="scaledContents">
-            <bool>true</bool>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_14">
-           <property name="geometry">
-            <rect>
-             <x>40</x>
-             <y>220</y>
-             <width>221</width>
-             <height>61</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-            </font>
-           </property>
-           <property name="text">
-            <string>chiếc điện thoại 
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_2">
+              <item>
+               <widget class="QLabel" name="label_4">
+                <property name="minimumSize">
+                 <size>
+                  <width>200</width>
+                  <height>200</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>image/iphone_16_pro_max_natural_-_1_copy_c85417198ff249b0852a93d7bc660695_medium (1).webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_14">
+                <property name="font">
+                 <font>
+                  <family>Century Gothic</family>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>chiếc điện thoại 
  iphone pro max giá vừa phải</string>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_15">
-           <property name="geometry">
-            <rect>
-             <x>90</x>
-             <y>290</y>
-             <width>71</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-            </font>
-           </property>
-           <property name="text">
-            <string>34,000,000</string>
-           </property>
-          </widget>
-         </widget>
-         <widget class="QFrame" name="frame_5">
-          <property name="geometry">
-           <rect>
-            <x>390</x>
-            <y>120</y>
-            <width>291</width>
-            <height>411</height>
-           </rect>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);
-border-radius:15px;</string>
-          </property>
-          <property name="frameShape">
-           <enum>QFrame::StyledPanel</enum>
-          </property>
-          <property name="frameShadow">
-           <enum>QFrame::Raised</enum>
-          </property>
-          <widget class="QLabel" name="label_16">
-           <property name="geometry">
-            <rect>
-             <x>50</x>
-             <y>40</y>
-             <width>191</width>
-             <height>201</height>
-            </rect>
-           </property>
-           <property name="text">
-            <string/>
-           </property>
-           <property name="pixmap">
-            <pixmap>image/iphone_16_pro_max_natural_-_1_copy_c85417198ff249b0852a93d7bc660695_medium (1).webp</pixmap>
-           </property>
-           <property name="scaledContents">
-            <bool>true</bool>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_17">
-           <property name="geometry">
-            <rect>
-             <x>40</x>
-             <y>220</y>
-             <width>221</width>
-             <height>61</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-            </font>
-           </property>
-           <property name="text">
-            <string>chiếc điện thoại 
- iphone pro max giá vừa phải</string>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_18">
-           <property name="geometry">
-            <rect>
-             <x>90</x>
-             <y>290</y>
-             <width>71</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-            </font>
-           </property>
-           <property name="text">
-            <string>34,000,000</string>
-           </property>
-          </widget>
-         </widget>
-         <widget class="QFrame" name="frame_6">
-          <property name="geometry">
-           <rect>
-            <x>770</x>
-            <y>120</y>
-            <width>291</width>
-            <height>411</height>
-           </rect>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);
-border-radius:15px;</string>
-          </property>
-          <property name="frameShape">
-           <enum>QFrame::StyledPanel</enum>
-          </property>
-          <property name="frameShadow">
-           <enum>QFrame::Raised</enum>
-          </property>
-          <widget class="QLabel" name="label_19">
-           <property name="geometry">
-            <rect>
-             <x>50</x>
-             <y>40</y>
-             <width>191</width>
-             <height>201</height>
-            </rect>
-           </property>
-           <property name="text">
-            <string/>
-           </property>
-           <property name="pixmap">
-            <pixmap>image/iphone_16_pro_max_natural_-_1_copy_c85417198ff249b0852a93d7bc660695_medium (1).webp</pixmap>
-           </property>
-           <property name="scaledContents">
-            <bool>true</bool>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_20">
-           <property name="geometry">
-            <rect>
-             <x>40</x>
-             <y>220</y>
-             <width>221</width>
-             <height>61</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-            </font>
-           </property>
-           <property name="text">
-            <string>chiếc điện thoại 
- iphone pro max giá vừa phải</string>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_21">
-           <property name="geometry">
-            <rect>
-             <x>90</x>
-             <y>290</y>
-             <width>71</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-            </font>
-           </property>
-           <property name="text">
-            <string>34,000,000</string>
-           </property>
-          </widget>
-         </widget>
-         <widget class="QFrame" name="frame_7">
-          <property name="geometry">
-           <rect>
-            <x>90</x>
-            <y>560</y>
-            <width>291</width>
-            <height>411</height>
-           </rect>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);
-border-radius:15px;</string>
-          </property>
-          <property name="frameShape">
-           <enum>QFrame::StyledPanel</enum>
-          </property>
-          <property name="frameShadow">
-           <enum>QFrame::Raised</enum>
-          </property>
-          <widget class="QLabel" name="label_22">
-           <property name="geometry">
-            <rect>
-             <x>50</x>
-             <y>40</y>
-             <width>191</width>
-             <height>201</height>
-            </rect>
-           </property>
-           <property name="text">
-            <string/>
-           </property>
-           <property name="pixmap">
-            <pixmap>image/iphone_16_pro_max_natural_-_1_copy_c85417198ff249b0852a93d7bc660695_medium (1).webp</pixmap>
-           </property>
-           <property name="scaledContents">
-            <bool>true</bool>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_23">
-           <property name="geometry">
-            <rect>
-             <x>40</x>
-             <y>220</y>
-             <width>221</width>
-             <height>61</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-            </font>
-           </property>
-           <property name="text">
-            <string>chiếc điện thoại 
- iphone pro max giá vừa phải</string>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_24">
-           <property name="geometry">
-            <rect>
-             <x>90</x>
-             <y>290</y>
-             <width>71</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Century Gothic</family>
-            </font>
-           </property>
-           <property name="text">
-            <string>34,000,000</string>
-           </property>
-          </widget>
-         </widget>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_15">
+                <property name="font">
+                 <font>
+                  <family>Century Gothic</family>
+                  <pointsize>16</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>34,000,000</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton">
+                <property name="minimumSize">
+                 <size>
+                  <width>178</width>
+                  <height>64</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>200</height>
+                 </size>
+                </property>
+                <property name="sizeIncrement">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Century Gothic</family>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+ border: 2px solid rgb(34, 34, 34);
+border-radius: 30;
+color:balck;
+}
+QPushButton:checked{
+	color: white;
+	 border-radius: 30px;
+	  border: 1px rgb(255, 255, 255);
+		background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 242, 0, 255), stop:1 rgba(255, 167, 0, 255));
+    }
+QPushButton:hover{
+		color: white;
+	 border-radius: 30px;
+	
+  border: 1px rgb(255, 255, 255);
+	
+	
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0 rgba(93, 93, 93, 255), stop:1 rgba(60, 60, 60, 255));
+	
+} </string>
+                </property>
+                <property name="text">
+                 <string>mua ngay</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </widget>
       </item>
