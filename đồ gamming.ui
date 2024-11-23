@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1999</width>
-    <height>1206</height>
+    <height>1019</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -42,9 +42,9 @@
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>-873</y>
-       <width>1878</width>
-       <height>1882</height>
+       <y>0</y>
+       <width>1882</width>
+       <height>1868</height>
       </rect>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout">
@@ -79,10 +79,10 @@
         <widget class="QWidget" name="scrollAreaWidgetContents_6">
          <property name="geometry">
           <rect>
-           <x>0</x>
+           <x>-1254</x>
            <y>0</y>
-           <width>3135</width>
-           <height>427</height>
+           <width>3116</width>
+           <height>431</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_54">
@@ -1682,8 +1682,8 @@ QPushButton:hover{
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>3135</width>
-           <height>427</height>
+           <width>3116</width>
+           <height>431</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_41">
@@ -3283,8 +3283,8 @@ QPushButton:hover{
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>3135</width>
-           <height>427</height>
+           <width>3116</width>
+           <height>431</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_28">
@@ -4882,10 +4882,10 @@ QPushButton:hover{
         <widget class="QWidget" name="scrollAreaWidgetContents_2">
          <property name="geometry">
           <rect>
-           <x>-981</x>
+           <x>0</x>
            <y>0</y>
-           <width>3135</width>
-           <height>427</height>
+           <width>3116</width>
+           <height>431</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -6470,7 +6470,7 @@ QPushButton:hover{
      <x>0</x>
      <y>0</y>
      <width>1999</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

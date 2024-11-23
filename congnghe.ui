@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1893</width>
-    <height>1578</height>
+    <width>1160</width>
+    <height>1145</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,9 +17,9 @@
    <widget class="QWidget" name="widget" native="true">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>0</x>
       <y>10</y>
-      <width>1611</width>
+      <width>1411</width>
       <height>1401</height>
      </rect>
     </property>
@@ -43,7 +43,7 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>1591</width>
+        <width>1141</width>
         <height>171</height>
        </rect>
       </property>
@@ -186,9 +186,9 @@ color: rgb(255, 255, 255);</string>
           <property name="geometry">
            <rect>
             <x>80</x>
-            <y>-30</y>
+            <y>-50</y>
             <width>211</width>
-            <height>141</height>
+            <height>161</height>
            </rect>
           </property>
           <property name="text">
@@ -365,7 +365,7 @@ color: rgb(32, 32, 48);</string>
       <rect>
        <x>-90</x>
        <y>180</y>
-       <width>1681</width>
+       <width>1481</width>
        <height>1191</height>
       </rect>
      </property>
@@ -378,7 +378,7 @@ color: rgb(32, 32, 48);</string>
      <widget class="QWidget" name="widget_6" native="true">
       <property name="geometry">
        <rect>
-        <x>120</x>
+        <x>100</x>
         <y>20</y>
         <width>1531</width>
         <height>1121</height>
@@ -445,7 +445,7 @@ border-radius: 10px;
          <x>340</x>
          <y>20</y>
          <width>721</width>
-         <height>421</height>
+         <height>361</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -459,31 +459,11 @@ border-radius:23px;</string>
         <enum>QFrame::Raised</enum>
        </property>
       </widget>
-      <widget class="QFrame" name="frame_19">
-       <property name="geometry">
-        <rect>
-         <x>1100</x>
-         <y>20</y>
-         <width>411</width>
-         <height>431</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(0, 0, 0);
-border-radius:30px;</string>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Raised</enum>
-       </property>
-      </widget>
       <widget class="QPushButton" name="pushButton_36">
        <property name="geometry">
         <rect>
-         <x>30</x>
-         <y>790</y>
+         <x>10</x>
+         <y>720</y>
          <width>221</width>
          <height>51</height>
         </rect>
@@ -561,8 +541,8 @@ color: rgb(0,0,0);
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>288</width>
-             <height>429</height>
+             <width>292</width>
+             <height>425</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_14">
@@ -1239,8 +1219,8 @@ color: rgb(0,0,0);
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>288</width>
-             <height>429</height>
+             <width>292</width>
+             <height>425</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_74">
@@ -1912,9 +1892,9 @@ color: rgb(0,0,0);
       <widget class="QScrollArea" name="scrollArea_3">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>470</y>
-         <width>1511</width>
+         <x>0</x>
+         <y>430</y>
+         <width>1111</width>
          <height>251</height>
         </rect>
        </property>
@@ -1926,8 +1906,8 @@ color: rgb(0,0,0);
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>2598</width>
-          <height>230</height>
+          <width>2588</width>
+          <height>234</height>
          </rect>
         </property>
         <layout class="QHBoxLayout" name="horizontalLayout">
@@ -3022,8 +3002,8 @@ QPushButton:hover{
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1893</width>
-     <height>26</height>
+     <width>1160</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>

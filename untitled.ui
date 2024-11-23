@@ -37,14 +37,6 @@
      </property>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <widget class="QLabel" name="label">
-        <property name="text">
-         <string>mục bán đồ 
- chi tiết sản phẩm</string>
-        </property>
-       </widget>
-      </item>
-      <item>
        <widget class="QScrollArea" name="scrollArea_2">
         <property name="maximumSize">
          <size>
@@ -63,7 +55,7 @@
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>1105</width>
+           <width>1109</width>
            <height>198</height>
           </rect>
          </property>
@@ -233,7 +225,7 @@ QPushButton:hover{
      <x>0</x>
      <y>0</y>
      <width>1148</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
