@@ -39,44 +39,60 @@ def save_users(users):
 # Styling
 APP_STYLE = """
 QMainWindow {
-    background-color: #f0f2f5;
+    background-color: #f7f9fc;
 }
 
 QLabel {
     font-size: 16px;
     color: #333;
-    margin: 5px 0;
+}
+
+QLabel#title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0056b3;
+    text-align: center;
 }
 
 QPushButton {
     background-color: #0056b3;
     color: white;
     border-radius: 8px;
-    padding: 16px;
-    font-size: 16px;
+    padding: 50px;
+    font-size: 20px;
     font-weight: bold;
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid transparent;
 }
 
 QPushButton:hover {
     background-color: #0073e6;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-    transform: scale(1.02);
+    border-color: #004bb5;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
 }
 
 QPushButton:pressed {
     background-color: #003d80;
+    border-color: #002b5a;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+QPushButton:disabled {
+    background-color: #d6d9df;
+    color: #a0a3a8;
+    border-color: #c1c4c9;
+    box-shadow: none;
+}
+
 QLineEdit {
-    padding: 10px;
+    padding: 26px;
     border: 2px solid #ccc;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 24px;
     background-color: #fff;
-    transition: border-color 0.3s ease;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -85,13 +101,15 @@ QLineEdit:focus {
     box-shadow: 0 0 5px rgba(0, 86, 179, 0.3);
 }
 
-QVBoxLayout {
-    margin: 20px;
-}
-
 QMessageBox {
     background-color: #fefefe;
     font-size: 14px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+QScrollArea {
+    border: none;
 }
 
 QWidget {
@@ -99,15 +117,8 @@ QWidget {
     margin: 0;
     padding: 0;
 }
-
-QLabel#title {
-    font-size: 22px;
-    font-weight: bold;
-    color: #0056b3;
-    margin-bottom: 15px;
-    text-align: center;
-}
 """
+
 
 
 # Login Window
@@ -249,7 +260,7 @@ class ProductCard(QWidget):
             QWidget {
                 border-radius: 10px;
                 border: 1px solid #ddd;
-                padding: 15px;
+                padding: 25px;
                 background-color: #ffffff;
                 margin: 10px;
                 max-width: 250px;
@@ -275,7 +286,7 @@ class ProductCard(QWidget):
                 background-color: #0056b3;
                 color: white;
                 border-radius: 8px;
-                padding: 16px;
+                padding: 26px;
                 font-size: 16px;
                 font-weight: bold;
                 transition: all 0.3s ease;
@@ -329,21 +340,21 @@ class ProductCard(QWidget):
     def on_buy(self):
         if self.product["stock"] > 0:
             self.product["stock"] -= 1
-            save_products(self.products)  # Save updated stock to JSON
+            save_products(self.product)  # Save updated stock to JSON
             QMessageBox.information(self, "Purchase Successful", f"You bought 1 {self.product['name']}!")
         else:
             QMessageBox.warning(self, "Out of Stock", f"{self.product['name']} is out of stock!")
-
-
-
 
 class HomeWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Home")
-        self.setGeometry(100, 100, 1000, 600)  # Optimized for modern screens
+        self.setGeometry(100, 100, 1000, 600)
         self.setStyleSheet(APP_STYLE)
 
+        self.products = load_products()  # Cache the loaded products in memory
+
+        # Main layout
         main_layout = QVBoxLayout()
 
         # Header label
@@ -367,7 +378,7 @@ class HomeWindow(QMainWindow):
                 background-color: #0056b3;
                 color: white;
                 border-radius: 8px;
-                padding: 16px;
+                padding: 26px;
                 font-size: 16px;
                 font-weight: bold;
                 transition: all 0.3s ease;
@@ -389,16 +400,21 @@ class HomeWindow(QMainWindow):
         container.setLayout(main_layout)
         self.setCentralWidget(container)
 
-        self.load_products()
+        self.load_products()  # Populate the product list
 
     def load_products(self):
+        # Clear existing product cards
+        while self.product_list_layout.count():
+            item = self.product_list_layout.takeAt(0)
+            widget = item.widget()
+            if widget is not None:
+                widget.deleteLater()
+
         self.product_list_layout.setContentsMargins(10, 10, 10, 10)
         self.product_list_layout.setSpacing(20)
 
-        products = load_products()
-
-        # Populate the layout with product cards
-        for product in products:
+        # Use self.products (cached products list)
+        for product in self.products:
             card = ProductCard(product)
             self.product_list_layout.addWidget(card)
 
@@ -406,6 +422,107 @@ class HomeWindow(QMainWindow):
         self.product_management_window = ProductManagementWindow(self)
         self.product_management_window.show()
         self.close()
+
+APP_STYLE += """
+QMainWindow {
+    background-color: #f8fafc;
+}
+
+QLabel {
+    font-size: 16px;
+    color: #333;
+}
+
+QLabel#title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0056b3;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+QLineEdit {
+    padding: 8px 12px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+QLineEdit:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.3);
+}
+
+QCheckBox {
+    font-size: 14px;
+    color: #333;
+    spacing: 8px;
+}
+
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #0056b3;
+    border: 1px solid #0056b3;
+}
+
+QPushButton {
+    background-color: #0056b3;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+QPushButton:hover {
+    background-color: #0073e6;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+QPushButton:pressed {
+    background-color: #003d80;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+QPushButton:disabled {
+    background-color: #d6d9df;
+    color: #a0a3a8;
+}
+
+QTableWidget {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    gridline-color: #ccc;
+}
+
+QTableWidget::item {
+    padding: 10px;
+}
+
+QHeaderView::section {
+    background-color: #f1f3f5;
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+QTableWidget::item:selected {
+    background-color: #e6f3ff;
+    color: #0056b3;
+}
+"""
 
 # Product Management Window
 class ProductManagementWindow(QMainWindow):
@@ -560,21 +677,37 @@ class ProductManagementWindow(QMainWindow):
     def edit_product(self):
         selected_row = self.product_table.currentRow()
         if selected_row >= 0:
-            product = self.products[selected_row]
-            name, ok = QInputDialog.getText(self, "Edit Product", "Enter new product name:", text=product["name"])
-            if ok and name:
-                price, ok = QInputDialog.getText(self, "Edit Product", "Enter new product price:", text=str(product["price"]))
-                if ok and price.isdigit():
-                    stock, ok = QInputDialog.getInt(self, "Edit Product", "Enter stock quantity:", value=product.get("stock", 0))
-                    if ok:
-                        image_path, _ = QFileDialog.getOpenFileName(self, "Select New Product Image", "", "Images (*.png *.jpg *.jpeg)")
-                        if image_path:
-                            product["image"] = image_path
-                        product["name"] = name
-                        product["price"] = price
-                        product["stock"] = stock
-                        save_products(self.products)
-                        self.load_products()
+            # Find the product by its ID
+            product_id = self.product_table.item(selected_row, 0).text()
+            product = next((p for p in self.products if p["id"] == product_id), None)
+
+            if product:
+                # Edit product name
+                name, ok = QInputDialog.getText(self, "Edit Product", "Enter new product name:", text=product["name"])
+                if ok and name:
+                    product["name"] = name
+
+                    # Edit product price
+                    price, ok = QInputDialog.getText(self, "Edit Product", "Enter new product price:", text=str(product["price"]))
+                    if ok and price.isdigit():
+                        product["price"] = int(price)
+
+                        # Edit stock quantity
+                        stock, ok = QInputDialog.getInt(self, "Edit Product", "Enter stock quantity:", value=product.get("stock", 0))
+                        if ok:
+                            product["stock"] = stock
+
+                            # Edit product image (optional)
+                            image_path, _ = QFileDialog.getOpenFileName(self, "Select New Product Image", "", "Images (*.png *.jpg *.jpeg)")
+                            if image_path:
+                                product["image"] = image_path
+
+                            # Save changes to the JSON file
+                            save_products(self.products)
+
+                            # Reload the table to reflect updates
+                            self.load_products()
+
 
     def update_stock(self):
         selected_row = self.product_table.currentRow()
@@ -590,9 +723,14 @@ class ProductManagementWindow(QMainWindow):
                 self.load_products()
 
     def go_back_to_home(self):
-        self.parent.load_products()
-        self.parent.show()
-        self.close()
+        # Update parent's products list and reload
+        if self.parent:
+            self.parent.products = self.products  # Pass updated products to parent
+            self.parent.load_products()  # Refresh homepage UI
+        self.parent.show()  # Show homepage
+        self.close()  # Close the management window
+
+
 
 # Main function
 def main():
